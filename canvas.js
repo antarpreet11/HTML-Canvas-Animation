@@ -12,40 +12,6 @@ window.addEventListener('resize', () => {
 
 let c = canvas.getContext('2d')
 
-// Rectangle
-// c.fillStyle = 'rgba(255,0,0,0.5)'
-// c.fillRect(100, 100, 100, 100)
-// --------------------------------------
-
-// // Line
-// c.beginPath()
-// c.moveTo(50, 300)
-// c.lineTo(300, 100)
-// c.lineTo(50, 400)
-// c.closePath()
-// c.strokeStyle = "blue"
-// c.stroke()
-// ---------------------------------------
-
-// Arc
-// c.beginPath()
-// c.arc(300, 300, 50, 0, Math.PI *2, true)
-// c.strokeStyle = "blue"
-// c.stroke()
-// ---------------------------------------
-
-// Circles
-// for(let i = 0; i < 100; i++) {
-//     let x = Math.random() * window.innerWidth
-//     let y = Math.random() * window.innerHeight
-//     let colors = ["red", "green", "blue", "yellow"]
-//     c.beginPath()
-//     c.arc(x, y, 30,  0, Math.PI *2, true)
-//     c.strokeStyle = colors[Math.floor(Math.random() * 4)] 
-//     c.stroke()
-// }
-// ----------------------------------------
-
 let mouse = {
     x: undefined,
     y: undefined
@@ -119,7 +85,6 @@ class Circle {
         this.draw()
     }
 }
-
 
 
 
