@@ -93,7 +93,7 @@ let circleArray = []
 function init() {
 
     circleArray = []
-    for(let i = 0; i < 1000 ; i++)
+    for(let i = 0; i < 2000 ; i++)
     {
         let radius = (Math.random() * 3) + 1
         let x = Math.random() * (innerWidth - radius*2) + radius
